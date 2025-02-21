@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+
+notifications:
+  email:
+    sender: "noreply@barzhaa-fit.com"
+  sms:
+    provider: "twilio"
